@@ -1,0 +1,51 @@
+{
+  "name": "hapi-fluxible",
+  "version": "1.0.0",
+  "description": "A hapi fluxible implementation",
+  "scripts": {
+    "start": "babel-node index",
+    "dev": "NODE_ENV='development' ./node_modules/gulp/bin/gulp.js dev && babel-node index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/veeracs/hapi-fluxible.git"
+  },
+  "author": "Chandra",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/veeracs/hapi-fluxible/issues"
+  },
+  "homepage": "https://github.com/veeracs/hapi-fluxible",
+  "dependencies": {
+    "debug": "^2.2.0",
+    "fluxible": "^0.5.1",
+    "jquery": "^2.1.4",
+    "lodash": "^3.10.0",
+    "node-jsx": "^0.13.3",
+    "normalize.css": "^3.0.3",
+    "react": "^0.13.3",
+    "react-router": "^0.13.3",
+    "serialize-javascript": "^1.0.0"
+  },
+  "devDependencies": {
+    "babel-core": "^5.8.22",
+    "babel-loader": "^5.3.2",
+    "css-loader": "^0.18.0",
+    "eslint": "^1.2.1",
+    "eslint-loader": "^1.0.0",
+    "extract-text-webpack-plugin": "^0.8.2",
+    "file-loader": "^0.8.4",
+    "fluxible-addons-react": "^0.1.6",
+    "gulp": "^3.9.0",
+    "gulp-util": "^3.0.6",
+    "hapi": "^8.8.1",
+    "inert": "^3.0.1",
+    "node-bourbon": "^4.2.3",
+    "node-sass": "^3.3.2",
+    "nodemon": "^1.4.1",
+    "sass-loader": "^2.0.1",
+    "style-loader": "^0.12.3",
+    "url-loader": "^0.5.6",
+    "webpack": "^1.11.0"
+  }
+}

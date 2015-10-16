@@ -1,0 +1,10 @@
+//	Header styles
+
+header {
+  @include outer-container(100%);
+  background: $burnt-sienna;
+  padding: 10px 0 0;
+  color: $white;
+  text-align: center;
+  font-size: 1.2rem;
+}

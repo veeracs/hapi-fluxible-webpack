@@ -1,2 +1,5 @@
-# hapi-fluxible-webpack
-An isomorphic app using Fluxible and Hapi
+# hapi-fluxible webpack
+A hapi fluxible webpack
+
+Fully encapsulated isomorphic components (HTML, CSS, JS)
+

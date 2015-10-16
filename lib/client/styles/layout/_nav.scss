@@ -1,0 +1,27 @@
+nav {
+  background: $white;
+  z-index: 150;
+  box-shadow: 0 2px 3px rgba(0,0,0,.4);
+  position: relative;
+  text-align: center;
+
+  a {
+    font-size: .9em;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: $space-shuttle;
+    display: inline-block;
+    margin: 12px 12px;
+
+    &.selected {
+      border-top: 2px solid $burnt-sienna;
+    }
+  }
+
+  ul {
+    li {
+      display: inline;
+    }
+  }
+}

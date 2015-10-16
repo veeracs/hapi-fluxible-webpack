@@ -1,0 +1,37 @@
+//  FRAMEWORK STYLES
+
+@import 'bourbon';
+@import 'base/base';
+@import 'helpers/helpers';
+@import 'layout/neat/neat';
+
+//  APP STYLES
+
+@import 'layout/layout';
+
+html {
+  font-size: 12px;
+}
+
+body {
+  margin: 0;
+}
+
+html,
+body {
+  //  setup elements with 100% viewport height
+  height: 100%;
+}
+
+//	LAYOUT STYLES
+
+main {
+  // exclude footer height, so footer is always stuck to the bottom
+  min-height: calc(100% - 422px);
+}
+
+.page-container {
+  @include outer-container(100%);
+  // firefox needs it to have elm with 100% viewport height
+  height: 100%;
+}

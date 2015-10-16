@@ -1,0 +1,23 @@
+//  FRAMEWORK STYLES
+
+@import 'bourbon';
+@import '../layout/neat/neat';
+
+//  HOME STYLES
+
+section {
+  font-size: 1.2rem;
+}
+
+.row {
+  @include span-columns(12);
+}
+
+.left-col {
+  @include span-columns(8 of 12);
+}
+
+.right-col {
+  @include span-columns(4 of 12);
+}
+
